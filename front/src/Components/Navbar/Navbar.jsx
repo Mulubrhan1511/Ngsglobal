@@ -164,7 +164,7 @@ const Navbar = () => {
           <li>
             <Link
               smooth to="#home"
-              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-secondary border-secondary' : 'text-white border-white'} ${activeLink === 'home' ? 'active' : ''}`}
+              className={`border-r  pr-4  hover:text-accent transition-all duration-300 ${isScrolled ? 'text-black border-secondary' : 'text-black border-white'} ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => onUpdateActiveLink('home')}
             >
               Home
