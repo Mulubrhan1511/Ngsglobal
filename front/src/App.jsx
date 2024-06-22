@@ -4,6 +4,10 @@ import Navbar from "./Components/Navbar/Navbar";
 import Banner from "./Components/Banner/Banner";
 import Services from "./Components/Services/Services";
 import Banner2 from "./Components/Banner/Banner2";
+import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs";
+import BlogPosts from "./Components/BlogPosts/BlogPosts";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import VisionMissionValues from "./Components/VisionMissionValues/VisionMissionValues";
 
 
 const App = () => {
@@ -14,147 +18,15 @@ const App = () => {
       <div className="  ">
         
         <div className="">
-          <div className="">
+          
           <Navbar />
           <Banner />
           <Services />
           <Banner2 />
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>     
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>  
-          <h1>Home</h1>
-          <h1>home</h1>
-          <h1>Home</h1>         
-          </div>
+          <WhyChooseUs />
+          <BlogPosts />   
+          <ContactUs />
+          <VisionMissionValues />
         </div>
         
       </div>
