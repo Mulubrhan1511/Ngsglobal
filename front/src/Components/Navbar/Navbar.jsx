@@ -40,10 +40,10 @@ const Navbar = () => {
   return (
     <div className={`relative lg:sticky top-0 z-10     ${isScrolled ? '' : ''}`}>
       {!isScrolled && (
-        <div className=' mx-auto lg:relative flex flex-col lg:flex-row  bg-black '>
+        <div className=' mx-auto lg:relative flex flex-col:1 lg:flex-row  bg-black '>
          
           
-         <div className='flex flex-col lg:flex-row justify-between items-center w-full pl-20'>
+         <div className='flex flex-col lg:flex-row justify-between items-center w-full pl-20 '>
   <div className='flex flex-col gap-y-4 lg:flex-row lg:gap-x-10'>
     {/* location */}
     <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
@@ -64,9 +64,7 @@ const Navbar = () => {
       <div className='text-white text-sm'>9:00AM to 8:00PM</div>
     </div>
   </div>
-  <div className='text-white lg:ml-auto mt-4 lg:mt-0 pr-4'>
-    <h1>Login</h1>
-  </div>
+
         </div>
 
 
@@ -133,7 +131,7 @@ const Navbar = () => {
                       className='text-secondary hover:text-accent transition-all duration-300'
                       
                     >
-                      Blog
+                      products
                     </Link>
                   </li>
                   <li>
@@ -192,7 +190,7 @@ const Navbar = () => {
         className={`border-r pr-4 hover:text-accent transition-all duration-300 text-black border-secondary ${activeLink === 'hirarchy' ? 'active' : ''}`}
         onClick={() => onUpdateActiveLink('hirarchy')}
       >
-        Hirarchy
+        products
       </Link>
     </li>
     <li>

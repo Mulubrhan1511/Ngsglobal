@@ -10,16 +10,16 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "To SHIP YOUR PRODUCT TRUSTED",
+    title: "Streamline Your Global Trade with NGS global",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      " We handle your import and export needs efficiently and reliably.",
   },
   {
     id: 2,
     img: Image2,
-    title: "To SHIP YOUR PRODUCT TRUSTED",
+    title: "Grow Your Business Globally",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Expert Import & Export Services"
   },
   {
     id: 3,
