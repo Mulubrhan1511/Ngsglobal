@@ -8,6 +8,8 @@ import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs";
 import BlogPosts from "./Components/BlogPosts/BlogPosts";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import VisionMissionValues from "./Components/VisionMissionValues/VisionMissionValues";
+import Footer from "./Components/Footer/Footer";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const App = () => {
@@ -28,6 +30,7 @@ const App = () => {
           <WhyChooseUs />
           <ContactUs />
           <VisionMissionValues />
+          <Footer />
         </div>
         
       </div>
