@@ -12,13 +12,13 @@ const blogPosts = [
     link: "#"
   },
   {
-    title: "Electronic device",
+    title: "Car spare",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor aenean massa.",
     image: img2,
     link: "#"
   },
   {
-    title: "ALL SHIPPING CONTAINER ARE INTERNATIONAL TRANSPORT",
+    title: "Electronics device",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor aenean massa.",
     image: img3,
     link: "#"
