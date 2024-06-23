@@ -4,7 +4,18 @@ import { FaEye, FaBullseye, FaStar } from 'react-icons/fa';
 const VisionMissionValues = () => {
   return (
     <div className="p-8 bg-white">
-      <h2 className="text-3xl font-semibold mb-8 text-center">Our Vision, Mission, and Core Values</h2>
+      <h2 className="text-3xl font-semibold mb-8 text-center">About us</h2>
+      <h6 className="text-xl font-txt mb-6 text-center">NGS Global 
+        Trading is a private limited company registered under the law 
+        of the country at Mekelle, Tigray region, Ethiopia.
+NGS Global Trading PLC is founded in 2024 by two Ethiopian share holders 
+with an initial capital of 500000 birr. It is a new founding company 
+focused on import industry materials, construction materials, food
+ staffs, chemicals, stationaries and other material which are high 
+ values in the country developments. 
+</h6>
+      
+      
       <div className="flex flex-col md:flex-row gap-8">
         
         {/* Vision Section */}

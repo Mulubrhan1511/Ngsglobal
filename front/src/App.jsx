@@ -23,13 +23,14 @@ const App = () => {
           
           <Navbar />
           <Banner />
-          <BlogPosts />   
+          <VisionMissionValues />
           <Banner2 />
+
+          <BlogPosts />   
 
           <Services />
           <WhyChooseUs />
           <ContactUs />
-          <VisionMissionValues />
           <Footer />
         </div>
         

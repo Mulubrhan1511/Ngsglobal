@@ -6,19 +6,19 @@ import img3 from "../../assets/BlogPosts/plane_image.jpg";
 
 const blogPosts = [
   {
-    title: "CONSTRUCTION MATTERIAL",
+    title: "Copper wire",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor aenean massa.",
     image: img1,
     link: "#"
   },
   {
-    title: "Car spare",
+    title: "Food staff",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor aenean massa.",
     image: img2,
     link: "#"
   },
   {
-    title: "Electronics device",
+    title: "Chemicals",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor aenean massa.",
     image: img3,
     link: "#"
@@ -29,7 +29,7 @@ const BlogPosts = () => {
   return (
     <div className="text-center p-8 bg-white">
       <h2 className="text-3xl font-semibold mb-4">Import items</h2>
-      <p className="mb-8 text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="mb-8 text-gray-600">We import different varaity of goods .</p>
       <div className="flex flex-wrap justify-center gap-8">
         {blogPosts.map((post, index) => (
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden" key={index}>
