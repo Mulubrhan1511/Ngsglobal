@@ -4,13 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from "../../assets/banner/car.png";
 import Image2 from "../../assets/banner/plane.jpg";
-import Image3 from "../../assets/banner/ship.jpg";
+import Image3 from "../../assets/banner/shippment.jpg";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Streamline Your Global Trade with NGS global",
+    title: "WELCOME TO NGS GLOBAL TRADING OFFICAL WEBSITE",
     description:
       " We handle your import and export needs efficiently and reliably.",
   },
@@ -24,7 +24,7 @@ const ImageList = [
   {
     id: 3,
     img: Image3,
-    title: "To SHIP YOUR PRODUCT TRUSTED",
+    title: "Streamline Your Global Trade with us",
     description:
       "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },

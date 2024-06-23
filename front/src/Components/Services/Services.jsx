@@ -29,7 +29,7 @@ const Services = () => {
   return (
     <div className="text-center  bg-white pb-28">
       <h2 className="text-3xl font-semibold pt-16">OUR SERVICES</h2>
-      <p className="mb-8 text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="mb-8 text-gray-600">we NGS global are the revival of new area .</p>
       <div className="flex flex-wrap justify-center gap-8 pt-10">
         {services.map((service, index) => (
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md transition-transform transform hover:-translate-y-2" key={index}>
