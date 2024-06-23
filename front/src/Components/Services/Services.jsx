@@ -2,6 +2,9 @@ import React from 'react';
 import img1 from "../../assets/service/img1.jpg"
 import img2 from "../../assets/service/img2.jpeg"
 import img3 from "../../assets/service/img3.png"
+import img4 from "../../assets/service/img4.jpg"
+import img6 from "../../assets/service/img6.png"
+
 
 
 const services = [
@@ -26,7 +29,7 @@ const services = [
     {
     title: "mustard",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-    image: img1,
+    image: img4,
     link: "#"
   },
   {
@@ -38,7 +41,7 @@ const services = [
   {
     title: "pulses",
     description: " PEAS, CHICKPEAS AND SOYA BEANS ",
-    image: img3,
+    image: img6,
     link: "#"
   },
 ];
