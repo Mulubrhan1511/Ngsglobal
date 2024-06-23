@@ -21,10 +21,11 @@ const App = () => {
           
           <Navbar />
           <Banner />
-          <Services />
-          <Banner2 />
-          <WhyChooseUs />
           <BlogPosts />   
+          <Banner2 />
+
+          <Services />
+          <WhyChooseUs />
           <ContactUs />
           <VisionMissionValues />
         </div>
