@@ -36,7 +36,16 @@ focused on import industry materials, construction materials, food
             <h3 className="text-2xl font-semibold">Mission</h3>
           </div>
           <p className="text-gray-700">
-            Our mission is to deliver reliable, efficient, and tailored logistics solutions that exceed our clients' expectations and drive their business success.
+          Build long-term relationships with clients through high-quality products, proactive customer service, and timely deliveries.
+        Maintain a reputation for reliability.
+        <br/>
+        Be a committed team of techno-commercial professionals with a goal-oriented culture.
+        <br/>
+        Meet the needs and wishes of their buyers.
+        <br/>
+          Maintain and improve quality.
+          <br/>
+        Satisfy customers, employees, the community, society, the state, and the environment.
           </p>
         </div>
 
