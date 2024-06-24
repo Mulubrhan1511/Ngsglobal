@@ -8,9 +8,7 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <h2 className="text-red-600 font-bold text-2xl mb-4">NGS GLOBAL TRADING</h2>
-          <p className="text-gray-400 mb-4">
-            It was popularised in the 1960s with the release of Letraset sheets containing.
-          </p>
+          
           <div className="mb-4">
             <p><span className="font-bold">Phone:</span> +251 932091406|921323833</p>
             <p><span className="font-bold">Email:</span> ngsglobal2024@gmail.com</p>
