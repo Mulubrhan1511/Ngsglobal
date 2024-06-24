@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Company Info */}
         <div>
-          <h2 className="text-red-600 font-bold text-2xl mb-4">W SHIPPING</h2>
+          <h2 className="text-red-600 font-bold text-2xl mb-4">NGS GLOBAL TRADING</h2>
           <p className="text-gray-400 mb-4">
             It was popularised in the 1960s with the release of Letraset sheets containing.
           </p>
