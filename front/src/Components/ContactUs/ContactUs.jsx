@@ -23,9 +23,9 @@ const ContactUs = () => {
           <div className="bg-gray-100 p-4 rounded-md shadow-md">
             <h4 className="text-lg font-semibold mb-2">CORPORATE OFFICE</h4>
             <p className="flex items-center mb-2"><FaMapMarkerAlt className="text-red-600 mr-2" /> Tigray, mekelle, near to romanat square</p>
-            <p className="flex items-center mb-2"><FaPhoneAlt className="text-red-600 mr-2" /> Telephone No:+251 91 170 3505</p>
-            <p className="flex items-center mb-2"><FaFax className="text-red-600 mr-2" /> Fax No: +01711 123456</p>
-            <p className="flex items-center"><FaEnvelope className="text-red-600 mr-2" /> Email: contact@ngsglobal.com</p>
+            <p className="flex items-center mb-2"><FaPhoneAlt className="text-red-600 mr-2" /> Telephone No:+251 932091406|921323833</p>
+            
+            <p className="flex items-center"><FaEnvelope className="text-red-600 mr-2" /> ngsglobal2024@gmail.com</p>
           </div>
           {/* <div className="bg-gray-100 p-4 rounded-md shadow-md">
             <h4 className="text-lg font-semibold mb-2">SECTION OFFICE</h4>

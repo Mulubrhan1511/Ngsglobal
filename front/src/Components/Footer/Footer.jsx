@@ -63,8 +63,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-gray-400 mt-8">
-        <p>COPYRIGHT © 2017 WORLD SHIPPING. ALL RIGHTS RESERVED</p>
-        <p>DESIGN & DEVELOPMENT BY WEBSITENAME</p>
+        <p>COPYRIGHT © 2017</p>
+        <p>DESIGN & DEVELOPMENT BY harifSite</p>
       </div>
     </footer>
   );

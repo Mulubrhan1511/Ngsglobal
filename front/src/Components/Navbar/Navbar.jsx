@@ -47,13 +47,13 @@ const Navbar = () => {
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <div className='text-white flex flex-row text-sm'>
                   <TbMailFilled className='text-xl text-red-400'/>
-                  <div className='text-white text-sm'>info@worldshipping.com</div>
+                  <div className='text-white text-sm'>ngsglobal2024@gmail.com</div>
                 </div>
               </div>
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <RiPhoneFill className='text-xl text-red-400' />
-                <div className='text-white text-sm'>(+251) 91 170 3505</div>
+                <div className='text-white text-sm'>(+251) 932091406|9211323833</div>
               </div>
               {/* working hours */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
