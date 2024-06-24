@@ -12,9 +12,9 @@ const Footer = () => {
             It was popularised in the 1960s with the release of Letraset sheets containing.
           </p>
           <div className="mb-4">
-            <p><span className="font-bold">Phone:</span> +88 01911 837404</p>
-            <p><span className="font-bold">Email:</span> info@companyname.com</p>
-            <p><span className="font-bold">Fax:</span> +88 02 123456</p>
+            <p><span className="font-bold">Phone:</span> +251 932091406|921323833</p>
+            <p><span className="font-bold">Email:</span> ngsglobal2024@gmail.com</p>
+            
           </div>
           <div className="flex space-x-2">
             <a href="#" className="text-gray-400 hover:text-white"><i className="fab fa-facebook"></i></a>
