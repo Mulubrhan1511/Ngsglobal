@@ -5,14 +5,15 @@ const VisionMissionValues = () => {
   return (
     <div className="p-8 bg-white">
       <h2 className="text-3xl font-semibold mb-8 text-center">About us</h2>
-      <h6 className="text-xl font-txt mb-6 text-center">NGS Global 
-        Trading is a private limited company registered under the law 
-        of the country at Mekelle, Tigray region, Ethiopia.
-NGS Global Trading PLC is founded in 2024 by two Ethiopian share holders 
-with an initial capital of 500000 birr. It is a new founding company 
-focused on import industry materials, construction materials, food
- staffs, chemicals, stationaries and other material which are high 
- values in the country developments. 
+      <h6 className="text-xl font-txt mb-6 text-center">NGS GOLBAL TRADING 
+NGS Global Trading is a private limited company registered under the law of the country in Mekelle, Tigray region, Ethiopia.
+NGS Global Trading PLC was founded in 2024 by two Ethiopian share holders with an initial capital of 500000 birr. It is a new founding
+ company focused on import industry materials, construction materials, food staff, chemicals, stationery, and other materials that have high 
+ value in the countrys development.
+Mr. Nigus Teklay, the company founder and general manager, has around 10 years of experience in government communication, construction, l
+ogistics, and human resources. And he has five years of experience in business, practically in the import and electromechanical areas
+of the private sector, as the general manager of two private companies. Mr. Nigus Teklay was the best project manager, so NGS Global Trading 
+has a chance to be raised by the founder and general managers experiences and connections.
 </h6>
       
       
