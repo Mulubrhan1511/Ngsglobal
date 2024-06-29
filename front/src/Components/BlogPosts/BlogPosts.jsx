@@ -27,7 +27,7 @@ const blogPosts = [
 
 const BlogPosts = () => {
   return (
-    <div className="text-center p-8 bg-white">
+    <div className="text-center p-8 bg-primary">
       <h2 className="text-3xl font-semibold mb-4">Import items</h2>
       <p className="mb-8 text-gray-600">At NGS global , we give value the importance of having access to high-quality import items to support the diverse needs of businesses like yours. Whether youre in search of essential raw materials, specialized ingredients, or essential chemical compounds, we've got you covered..</p>
       <div className="flex flex-wrap justify-center gap-8">

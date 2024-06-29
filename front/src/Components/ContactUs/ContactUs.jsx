@@ -4,7 +4,7 @@ import img from "../../assets/ContactUs/contactus.jpg";
 
 const ContactUs = () => {
   return (
-    <div className="p-8 bg-white">
+    <div className="p-8 bg-primary">
       <h2 className="text-3xl font-semibold mb-4">WE ARE ALWAYS WITH YOU :)</h2>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="md:w-2/3">

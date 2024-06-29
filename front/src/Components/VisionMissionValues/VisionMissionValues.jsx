@@ -3,7 +3,7 @@ import { FaEye, FaBullseye, FaStar } from 'react-icons/fa';
 
 const VisionMissionValues = () => {
   return (
-    <div className="p-8 bg-white">
+    <div className="p-8 bg-primary">
       <h2 className="text-3xl font-semibold mb-8 text-center">About us</h2>
       <h6 className="text-xl font-txt mb-6 text-center">NGS GOLBAL TRADING 
 NGS Global Trading is a private limited company registered under the law of the country in Mekelle, Tigray region, Ethiopia.

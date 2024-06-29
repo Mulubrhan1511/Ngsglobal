@@ -4,7 +4,7 @@ import img from "../../assets/WhyChooseUs/handshake.jpeg";
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-8 bg-white">
+    <div className="flex flex-col md:flex-row items-center justify-center p-8 bg-primary">
       <div className="w-full md:w-1/2 p-4">
         <img
           src={img}

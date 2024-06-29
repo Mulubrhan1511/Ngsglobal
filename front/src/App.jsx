@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="  ">
+      <div className="bg-primary">
         
         <div className="">
           

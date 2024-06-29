@@ -48,7 +48,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="text-center  bg-white pb-28">
+    <div className="text-center  bg-primary pb-28">
       <h2 className="text-3xl font-semibold pt-16">Export items</h2>
       <p className="mb-8 text-gray-600">We exports Agricultural products like </p>
       <div className="flex flex-wrap justify-center gap-10 pt-10">
