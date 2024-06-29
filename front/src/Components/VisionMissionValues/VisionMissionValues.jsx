@@ -26,7 +26,9 @@ has a chance to be raised by the founder and general managers experiences and co
             <h3 className="text-2xl font-semibold">Vision</h3>
           </div>
           <p className="text-gray-700">
-            Our vision is to become the leading provider of logistics solutions, renowned for our dedication to innovation, excellence, and unparalleled customer service.
+          To be a leading global trading company renowned for excellence, innovation, and integrity 
+          in delivering high-quality products and services, fostering sustainable growth, and creating 
+          value for our stakeholders
           </p>
         </div>
 
@@ -37,16 +39,12 @@ has a chance to be raised by the founder and general managers experiences and co
             <h3 className="text-2xl font-semibold">Mission</h3>
           </div>
           <p className="text-gray-700">
-          Build long-term relationships with clients through high-quality products, proactive customer service, and timely deliveries.
-        Maintain a reputation for reliability.
-        <br/>
-        Be a committed team of techno-commercial professionals with a goal-oriented culture.
-        <br/>
-        Meet the needs and wishes of their buyers.
-        <br/>
-          Maintain and improve quality.
-          <br/>
-        Satisfy customers, employees, the community, society, the state, and the environment.
+          To consistently provide superior products and services that meet the evolving needs of our customers worldwide. 
+          To build and maintain strong, mutually beneficial relationships with our partners, suppliers, and customers. 
+          To embrace innovation and leverage technology to enhance our operational efficiency and market reach. To operate
+           with the highest standards of ethics, transparency, and corporate governance. To contribute positively to the communities 
+           we serve and promote sustainable and environmentally responsible practices. To foster a dynamic and inclusive work environment 
+           that attracts, develops, and retains talented individuals.
           </p>
         </div>
 
@@ -55,13 +53,22 @@ has a chance to be raised by the founder and general managers experiences and co
           <div className="flex items-center mb-4">
             <FaStar className="text-red-600 mr-4 text-3xl" />
             <h3 className="text-2xl font-semibold">Core Values</h3>
+          {/* <p className="text-gray-700">
+          The core values of NGS Global Trading plc typically reflect the principles and beliefs that
+           guide their operations and interactions. Here are some common core values of NGS Global Trading plc:
+            </p> */}
+
           </div>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Integrity: We adhere to the highest standards of honesty and ethical conduct.</li>
-            <li>Customer Focus: Our clients are at the heart of everything we do.</li>
-            <li>Innovation: We constantly seek new ways to improve and evolve our services.</li>
-            <li>Excellence: We strive for excellence in every aspect of our business.</li>
-            <li>Teamwork: We work together, across boundaries, to meet the needs of our customers.</li>
+            <li>Integrity:Commitment to honesty, transparency, and ethical behavior in all dealings.</li>
+            <li> Customer Focus: Dedication to understanding and meeting the needs of customers with high-quality products and services</li>
+            <li> Innovation: Embracing creativity and continuous improvement to stay ahead in a competitive global market.</li>
+            <li> Excellence: Striving for excellence in every aspect of business operations and customer service.</li>
+            <li>Teamwork: Collaboration and respect among colleagues, fostering a supportive and inclusive work environment.</li>
+            <li>Sustainability: Acting responsibly towards the environment and society, promoting sustainable practices.</li>
+            <li>Accountability: Taking responsibility for actions and decisions, delivering on commitments.</li>
+
+
           </ul>
         </div>
         
