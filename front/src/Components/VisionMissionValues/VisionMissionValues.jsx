@@ -4,18 +4,19 @@ import { FaEye, FaBullseye, FaStar } from 'react-icons/fa';
 const VisionMissionValues = () => {
   return (
     <div className="p-8 bg-primary">
-      <h2 className="text-3xl font-semibold mb-8 text-center">About us</h2>
-      <h6 className="text-xl font-txt mb-6 text-center">NGS GOLBAL TRADING 
-NGS Global Trading is a private limited company registered under the law of the country in Mekelle, Tigray region, Ethiopia.
-NGS Global Trading PLC was founded in 2024 by two Ethiopian share holders with an initial capital of 500000 birr. It is a new founding
- company focused on import industry materials, construction materials, food staff, chemicals, stationery, and other materials that have high 
- value in the countrys development.
-Mr. Nigus Teklay, the company founder and general manager, has around 10 years of experience in government communication, construction, l
-ogistics, and human resources. And he has five years of experience in business, practically in the import and electromechanical areas
-of the private sector, as the general manager of two private companies. Mr. Nigus Teklay was the best project manager, so NGS Global Trading 
-has a chance to be raised by the founder and general managers experiences and connections.
-</h6>
-      
+      <h2 className="text-3xl font-semibold mb-8 text-center">About Us</h2>
+      <h6 className="text-xl font-txt mb-6 text-center">
+        NGS Global Trading
+        <br />
+        NGS Global Trading is a private limited company registered under the laws of Ethiopia, located in Mekelle, Tigray region.
+        Established in 2024 by two Ethiopian shareholders with an initial capital of 500,000 birr, NGS Global Trading focuses on importing
+        high-value products, including industry materials, construction supplies, foodstuffs, chemicals, and stationery, for its own operations.
+        The company is committed to contributing to the country's development by providing quality products and services directly to consumers.
+        <br /><br />
+        Mr. Nigus Teklay, the founder and general manager, brings nearly 10 years of experience in government communication, construction, logistics,
+        and human resources. With five years of business experience in the import and electromechanical sectors as a general manager, Mr. Teklay has 
+        built a reputation for excellence. Under his leadership, NGS Global Trading is poised for growth, leveraging his extensive experience and connections.
+      </h6>
       
       <div className="flex flex-col md:flex-row gap-8">
         
@@ -26,9 +27,8 @@ has a chance to be raised by the founder and general managers experiences and co
             <h3 className="text-2xl font-semibold">Vision</h3>
           </div>
           <p className="text-gray-700">
-          To be a leading global trading company renowned for excellence, innovation, and integrity 
-          in delivering high-quality products and services, fostering sustainable growth, and creating 
-          value for our stakeholders
+            To become a leading company in Ethiopia, recognized for excellence in importing and exporting high-quality products,
+            ensuring sustainable growth and creating value for our stakeholders.
           </p>
         </div>
 
@@ -39,12 +39,10 @@ has a chance to be raised by the founder and general managers experiences and co
             <h3 className="text-2xl font-semibold">Mission</h3>
           </div>
           <p className="text-gray-700">
-          To consistently provide superior products and services that meet the evolving needs of our customers worldwide. 
-          To build and maintain strong, mutually beneficial relationships with our partners, suppliers, and customers. 
-          To embrace innovation and leverage technology to enhance our operational efficiency and market reach. To operate
-           with the highest standards of ethics, transparency, and corporate governance. To contribute positively to the communities 
-           we serve and promote sustainable and environmentally responsible practices. To foster a dynamic and inclusive work environment 
-           that attracts, develops, and retains talented individuals.
+            Our mission is to efficiently import and export quality products that meet the evolving needs of the Ethiopian market. 
+            We aim to strengthen our internal operations and enhance our market presence by leveraging innovation, maintaining high ethical standards, 
+            and fostering strong relationships with our partners and customers. We are committed to sustainable practices and making a positive impact 
+            on the communities we serve.
           </p>
         </div>
 
@@ -53,22 +51,15 @@ has a chance to be raised by the founder and general managers experiences and co
           <div className="flex items-center mb-4">
             <FaStar className="text-red-600 mr-4 text-3xl" />
             <h3 className="text-2xl font-semibold">Core Values</h3>
-          {/* <p className="text-gray-700">
-          The core values of NGS Global Trading plc typically reflect the principles and beliefs that
-           guide their operations and interactions. Here are some common core values of NGS Global Trading plc:
-            </p> */}
-
           </div>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Integrity:Commitment to honesty, transparency, and ethical behavior in all dealings.</li>
-            <li> Customer Focus: Dedication to understanding and meeting the needs of customers with high-quality products and services</li>
-            <li> Innovation: Embracing creativity and continuous improvement to stay ahead in a competitive global market.</li>
-            <li> Excellence: Striving for excellence in every aspect of business operations and customer service.</li>
-            <li>Teamwork: Collaboration and respect among colleagues, fostering a supportive and inclusive work environment.</li>
+            <li>Integrity: Commitment to honesty, transparency, and ethical behavior in all dealings.</li>
+            <li>Customer Focus: Dedication to understanding and meeting the needs of our customers with high-quality products.</li>
+            <li>Innovation: Embracing creativity and continuous improvement to excel in the competitive market.</li>
+            <li>Excellence: Striving for excellence in every aspect of our business operations and customer service.</li>
+            <li>Teamwork: Promoting collaboration and respect among colleagues, fostering a supportive work environment.</li>
             <li>Sustainability: Acting responsibly towards the environment and society, promoting sustainable practices.</li>
-            <li>Accountability: Taking responsibility for actions and decisions, delivering on commitments.</li>
-
-
+            <li>Accountability: Taking responsibility for our actions and decisions, and delivering on our commitments.</li>
           </ul>
         </div>
         

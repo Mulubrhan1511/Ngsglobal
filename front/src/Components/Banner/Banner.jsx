@@ -10,23 +10,23 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "WELCOME TO NGS GLOBAL TRADING OFFICAL WEBSITE",
+    title: "WELCOME TO NGS GLOBAL TRADING",
     description:
-      " We handle your import and export needs efficiently and reliably.",
+      "We import and export high-quality products, offering the best selection for our customers worldwide.",
   },
   {
     id: 2,
     img: Image2,
-    title: "Grow Your Business Globally",
+    title: "Explore Our Exclusive Range",
     description:
-      "Expert Import & Export Services"
+      "Discover a diverse range of imported goods, carefully selected to meet your needs.",
   },
   {
     id: 3,
     img: Image3,
-    title: "Streamline Your Global Trade with us",
+    title: "Quality Products, Global Reach",
     description:
-      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "From import to export, we ensure top-notch products reach you wherever you are.",
   },
 ];
 
@@ -68,7 +68,7 @@ const Banner = ({ handleOrderPopup }) => {
               onClick={handleOrderPopup}
               className="mt-4 bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white  px-4 rounded-full"
             >
-              Order Now
+              Shop Now
             </button>
           </div>
         </div>
