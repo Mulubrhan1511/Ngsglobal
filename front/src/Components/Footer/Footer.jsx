@@ -8,9 +8,11 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
         {/* Company Info */}
         <div className="md:col-span-1">
-          <h2 className="text-red-600 text-3xl font-bold mb-4">NGS GLOBAL TRADING</h2>
+          <h2 className="text-yellow-400 text-3xl font-bold mb-4">NGS GLOBAL TRADING</h2>
           <div className="mb-4">
-            <p><span className="font-semibold">Phone:</span> +251 932091406 | 921323833</p>
+            <p><span className="font-semibold">Phone:</span> +2519 32 09 14 06 </p>
+            <p><span className="font-semibold"></span>          +2519 21 32 38 33</p>
+
             <p><span className="font-semibold">Email:</span> ngsglobal2024@gmail.com</p>
           </div>
           <div className="flex space-x-4">
@@ -61,7 +63,7 @@ const Footer = () => {
             />
             <button 
               type="submit" 
-              className="w-full bg-red-600 text-white p-2 rounded-md hover:bg-red-700 transition"
+              className="w-full bg-yellow-400 text-white p-2 rounded-md hover:bg-red-700 transition"
             >
               Subscribe
             </button>
