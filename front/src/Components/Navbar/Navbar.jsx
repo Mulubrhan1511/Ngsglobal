@@ -46,18 +46,18 @@ const Navbar = () => {
               {/* email */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <div className='text-white flex flex-row text-sm'>
-                  <TbMailFilled className='text-xl text-red-400'/>
+                  <TbMailFilled className='text-xl text-yellow-400'/>
                   <div className='text-white text-sm'>ngsglobal2024@gmail.com</div>
                 </div>
               </div>
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
-                <RiPhoneFill className='text-xl text-red-400' />
+                <RiPhoneFill className='text-xl text-yellow-400' />
                 <div className='text-white text-sm'>(+251) 932091406|9211323833</div>
               </div>
               {/* working hours */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
-                <MdAccessTimeFilled className='text-xl text-red-400'/>
+                <MdAccessTimeFilled className='text-xl text-yellow-400'/>
                 <div className='text-white text-sm'>9:00AM to 8:00PM</div>
               </div>
             </div>

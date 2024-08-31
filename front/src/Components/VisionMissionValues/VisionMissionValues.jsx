@@ -4,7 +4,7 @@ import { FaEye, FaBullseye, FaStar } from 'react-icons/fa';
 const VisionMissionValues = () => {
   return (
     <div className="p-8 bg-primary">
-      <h2 className="text-3xl font-semibold mb-8 text-center">About Us</h2>
+      <h2 className="text-3xl font-semibold mb-8 text-center  text-yellow-400 px-6">About Us</h2>
       <h6 className="text-xl font-txt mb-6 text-center">
         NGS Global Trading
         <br />
@@ -23,7 +23,7 @@ const VisionMissionValues = () => {
         {/* Vision Section */}
         <div className="flex-1 p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <FaEye className="text-red-600 mr-4 text-3xl" />
+            <FaEye className="text-yellow-400 mr-4 text-3xl" />
             <h3 className="text-2xl font-semibold">Vision</h3>
           </div>
           <p className="text-gray-700">
@@ -35,7 +35,7 @@ const VisionMissionValues = () => {
         {/* Mission Section */}
         <div className="flex-1 p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <FaBullseye className="text-red-600 mr-4 text-3xl" />
+            <FaBullseye className="text-yellow-400 mr-4 text-3xl" />
             <h3 className="text-2xl font-semibold">Mission</h3>
           </div>
           <p className="text-gray-700">
@@ -49,7 +49,7 @@ const VisionMissionValues = () => {
         {/* Core Values Section */}
         <div className="flex-1 p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <FaStar className="text-red-600 mr-4 text-3xl" />
+            <FaStar className="text-yellow-400 mr-4 text-3xl" />
             <h3 className="text-2xl font-semibold">Core Values</h3>
           </div>
           <ul className="list-disc list-inside text-gray-700">
