@@ -5,24 +5,18 @@ const VisionMissionValues = () => {
   return (
     <div className="p-8 bg-primary text-white">
       <h2 className="text-3xl font-semibold mb-8 text-center">About Us</h2>
-      <h6 className="text-xl font-primary mb-6 text-center">
-        NGS Global Trading
-        <br />
-        NGS Global Trading is a private limited company registered under the laws of Ethiopia, located in Mekelle, Tigray region.
-        Established in 2024 by two Ethiopian shareholders with an initial capital of 500,000 birr, NGS Global Trading focuses on importing
-        high-value products, including industry materials, construction supplies, foodstuffs, chemicals, and stationery, for its own operations.
-        The company is committed to contributing to the country's development by providing quality products and services directly to consumers.
+      <p className="text-xl font-primary mb-6 text-left">
+        NGS Global Trading PLC is a premier trading company founded with the vision of connecting Ethiopia’s rich resources with international markets while bringing essential goods from abroad to meet local demands. Established in 2024, the company has quickly grown to become a trusted partner in the trade of various goods, offering unmatched quality and service. Headquartered in Mekelle, Ethiopia, NGS Global Trading operates across the country, as well as in key international markets, making it a well-respected player in both import and export sectors.
         <br /><br />
-        The general manager, Mr. Nigus Teklay, holds a BA degree in foreign languages and literature and an MA degree in urban management.
-        He has nearly 10 years of experience in government offices, working as a project manager and bureau head. Mr. Teklay also brings valuable experience 
-        in the import, export, and electromechanical sectors, having served as a general manager in two private companies. His leadership, 
-        communication, and project management skills position NGS Global Trading for success.
+        The core mission of NGS Global Trading PLC is to bridge the gap between Ethiopian agricultural producers and international buyers, while also ensuring the availability of crucial imports for the local economy. The company’s scope of work is diverse, encompassing the importation of commodities such as rebar, metal billets, sheet metal, aluminum, timber, and food products like wheat, sunflower oil, palm oil, and sugar. This wide range of goods supports various industries including construction, manufacturing, and food processing, which are vital for Ethiopia's growing economy.
         <br /><br />
-        With his strong background in construction, logistics, import, export, and communication, Mr. Teklay is committed to building a company 
-        that will support Ethiopia’s development. He has been successfully running his own business for around five years, gaining essential experience 
-        to drive NGS Global Trading forward.
-      </h6>
-      
+        In addition to imports, NGS Global Trading is a key exporter of Ethiopia’s finest agricultural products. The company proudly supplies high-quality Ethiopian coffee, sesame, oil seeds, fruits, vegetables, and khat to markets across the globe. By connecting local farmers and producers to international customers, NGS Global is contributing to the growth and global recognition of Ethiopia’s agricultural sector. The company works diligently to uphold high standards in both sourcing and delivering products, ensuring that the unique qualities of Ethiopian produce are appreciated worldwide.
+        <br /><br />
+        NGS Global Trading PLC will build its foundation of trust, reliability, and efficiency because of its experienced experts. The company leverages a vast network of suppliers, manufacturers, and clients, both locally and internationally, to ensure seamless operations. Its well-organized logistics and supply chain systems enable NGS Global to meet the needs of diverse clients, from government contracts to private sector businesses. Whether dealing with construction materials for large-scale projects or agricultural exports for foreign markets, the company is recognized for its commitment to quality and timely delivery.
+        <br /><br />
+        Looking ahead, NGS Global Trading PLC is poised for continued growth and expansion. As it strengthens its partnerships and explores new opportunities, the company aims to play an even greater role in Ethiopia’s economic development. With its comprehensive approach to trade and a deep understanding of both local and global markets, NGS Global Trading PLC is well positioned to thrive in the years to come.
+      </p>
+
       <div className="flex flex-col md:flex-row gap-8">
         
         {/* Vision Section */}
@@ -32,8 +26,7 @@ const VisionMissionValues = () => {
             <h3 className="text-2xl font-semibold">Vision</h3>
           </div>
           <p className="text-gray-700">
-            To become a leading company in Ethiopia, recognized for excellence in importing and exporting high-quality products,
-            ensuring sustainable growth and creating value for our stakeholders.
+            To become a leading company in Ethiopia, recognized for excellence in importing and exporting high-quality products, ensuring sustainable growth and creating value for our stakeholders.
           </p>
         </div>
 
@@ -64,12 +57,11 @@ const VisionMissionValues = () => {
             <li>Excellence: Striving for excellence in every aspect of our business operations and customer service.</li>
             <li>Teamwork: Promoting collaboration and respect among colleagues, fostering a supportive work environment.</li>
             <li>Sustainability: Acting responsibly towards the environment and society, promoting sustainable practices.</li>
-            <li>Accountability: Taking responsibility for our actions and decisions, and delivering on our commitments.</li>
           </ul>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default VisionMissionValues;
