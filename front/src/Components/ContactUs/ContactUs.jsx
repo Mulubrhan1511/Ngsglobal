@@ -14,15 +14,15 @@ const ContactUs = () => {
             <input type="email" placeholder="Email" className="border border-gray-300 p-3 rounded-md md:col-span-2 focus:outline-none focus:ring-2 focus:ring-red-600" />
             <input type="text" placeholder="Phone Number" className="border border-gray-300 p-3 rounded-md md:col-span-2 focus:outline-none focus:ring-2 focus:ring-red-600" />
             <textarea placeholder="Message" className="border border-gray-300 p-3 rounded-md md:col-span-2 focus:outline-none focus:ring-2 focus:ring-red-600" rows="4"></textarea>
-            <button type="submit" className="bg-red-600 text-white p-3 rounded-md md:col-span-2 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600">Submit</button>
+            <button type="submit" className="bg-yellow-400 text-white p-3 rounded-md md:col-span-2 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600">Submit</button>
           </form>
         </div>
         <div className="md:w-1/3 flex flex-col gap-4">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h4 className="text-lg font-semibold mb-4 text-red-600">CORPORATE OFFICE</h4>
-            <p className="flex items-center mb-3 text-gray-700"><FaMapMarkerAlt className="text-red-600 mr-3 text-xl" /> Tigray, Mekelle, near Romanat Square</p>
-            <p className="flex items-center mb-3 text-gray-700"><FaPhoneAlt className="text-red-600 mr-3 text-xl" /> Telephone No: +251 932091406 | 921323833</p>
-            <p className="flex items-center text-gray-700"><FaEnvelope className="text-red-600 mr-3 text-xl" /> ngsglobal2024@gmail.com</p>
+            <h4 className="text-lg font-semibold mb-4 text-yellow-400">CORPORATE OFFICE</h4>
+            <p className="flex items-center mb-3 text-gray-700"><FaMapMarkerAlt className="text-yellow-400 mr-3 text-xl" /> Tigray, Mekelle, near Romanat Square</p>
+            <p className="flex items-center mb-3 text-gray-700"><FaPhoneAlt className="text-yellow-400 mr-3 text-xl" /> Telephone No: +251 932091406 | 921323833</p>
+            <p className="flex items-center text-gray-700"><FaEnvelope className="text-yellow-400 mr-3 text-xl" /> ngsglobal2024@gmail.com</p>
           </div>
         </div>
       </div>

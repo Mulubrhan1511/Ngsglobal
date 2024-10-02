@@ -66,9 +66,9 @@ const Banner = ({ handleOrderPopup }) => {
             <p className="text-sm">{data.description}</p>
             <button
               onClick={handleOrderPopup}
-              className="mt-4 bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white  px-4 rounded-full"
+              className="mt-4 bg-gradient-to-r from-primary to-gold hover:scale-105 duration-200 text-white  px-4 rounded-full"
             >
-              Shop Now
+              order Now
             </button>
           </div>
         </div>

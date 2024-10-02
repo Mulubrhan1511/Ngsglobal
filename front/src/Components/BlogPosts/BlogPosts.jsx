@@ -59,7 +59,7 @@ const BlogPosts = () => {
 
   return (
     <div className="text-center p-8 bg-gray-100">
-      <h2 className="text-4xl font-bold text-gray-800 mb-4">Import Items</h2>
+      <h2 className="text-4xl font-bold text-yellow-100 mb-4">Import Items</h2>
       <p className="mb-12 text-gray-600 text-lg max-w-3xl mx-auto">
         At NGS Global, we value the importance of having access to high-quality import items to support the diverse needs of businesses like yours. Whether you're in search of essential raw materials, specialized ingredients, or essential chemical compounds, we've got you covered.
       </p>

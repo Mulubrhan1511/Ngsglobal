@@ -47,7 +47,7 @@ const services = [
 const Services = () => {
   return (
     <div className="text-center bg-gray-100 pb-28">
-      <h2 className="text-4xl font-semibold pt-16 text-gray-800">Export Items</h2>
+      <h2 className="text-4xl font-semibold pt-16 text-yellow-100">Export Items</h2>
       <p className="mb-12 text-gray-600 text-lg max-w-4xl mx-auto px-4">
         We export high-quality agricultural products from Ethiopia, including a diverse range of oilseeds, pulses, and other valuable crops. Our products are carefully selected to meet international standards and ensure maximum satisfaction for our clients.
       </p>
