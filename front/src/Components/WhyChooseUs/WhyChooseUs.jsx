@@ -20,14 +20,12 @@ const WhyChooseUs = () => {
       <div className="w-full md:w-1/2 p-4">
         <h2 className="text-2xl font-semibold mb-4 text-yellow-50">WHY CHOOSE US?</h2>
         <p className="text-gray-700 mb-4">
-        At NGS Global, we specialize in import and export services that connect businesses to international markets. 
+          At NGS Global Trading, we excel in providing comprehensive import and export services that connect businesses to international markets.
         </p>
         <p className="text-gray-700 mb-4">
-        
-        Our extensive network and expertise ensure that your products reach their destination efficiently and safely.
-         Choosing us means partnering with a dedicated team that prioritizes your needs, providing personalized solutions 
-         tailored to your business requirements. With a commitment to transparency and reliability, 
-        we make global trade seamless, allowing you to focus on growing your business while we handle the logistics.
+          Our extensive network and industry expertise ensure that your products reach their destination efficiently and safely. 
+          Choosing us means partnering with a dedicated team that prioritizes your needs, offering personalized solutions tailored to your business requirements. 
+          With a commitment to transparency and reliability, we facilitate global trade, allowing you to focus on growing your business while we manage the logistics.
         </p>
         <button 
           onClick={handleOpen} 
