@@ -53,7 +53,7 @@ const Navbar = () => {
               {/* phone */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
                 <RiPhoneFill className='text-xl text-yellow-400' />
-                <div className='text-white text-sm'>(+251) 932091406|9211323833</div>
+                <div className='text-white text-sm'>(+251) 91 170 3505</div>
               </div>
               {/* working hours */}
               <div className='flex justify-center items-center gap-x-2 lg:justify-normal'>
