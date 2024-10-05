@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
         />
       </div>
       <div className="w-full md:w-1/2 p-4">
-        <h2 className="text-2xl font-semibold mb-4 text-yellow-50">WHY CHOOSE US?</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-green-50">WHY CHOOSE US?</h2>
         <p className="text-gray-700 mb-4">
           At NGS Global Trading, we excel in providing comprehensive import and export services that connect businesses to international markets.
         </p>
@@ -29,26 +29,26 @@ const WhyChooseUs = () => {
         </p>
         <button 
           onClick={handleOpen} 
-          className="text-yellow-400 font-semibold hover:underline"
+          className="text-green-400 font-semibold hover:underline"
         >
           READ MORE
         </button>
       </div>
       <div className="w-full md:w-1/2 p-4 flex flex-col space-y-4">
         <div className="flex items-center space-x-4">
-          <FaHandshake className="text-yellow-400 text-3xl" />
+          <FaHandshake className="text-green-400 text-3xl" />
           <span className="text-lg font-semibold">WE ARE TRUSTED</span>
         </div>
         <div className="flex items-center space-x-4">
-          <FaLock className="text-yellow-400 text-3xl" />
+          <FaLock className="text-green-400 text-3xl" />
           <span className="text-lg font-semibold">THE BEST SECURITY</span>
         </div>
         <div className="flex items-center space-x-4">
-          <FaThumbsUp className="text-yellow-400 text-3xl" />
+          <FaThumbsUp className="text-green-400 text-3xl" />
           <span className="text-lg font-semibold">100% GUARANTEE</span>
         </div>
         <div className="flex items-center space-x-4">
-          <FaMapMarkerAlt className="text-yellow-400 text-3xl" />
+          <FaMapMarkerAlt className="text-green-400 text-3xl" />
           <span className="text-lg font-semibold">QUICK LOCATION</span>
         </div>
       </div>
@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
           <div className="relative bg-white w-full md:w-3/4 lg:w-1/2 p-6 rounded-lg shadow-lg max-h-screen overflow-y-auto">
             <button
               onClick={handleClose}
-              className="absolute top-3 right-3 text-yellow-600 hover:text-yellow-800 text-2xl"
+              className="absolute top-3 right-3 text-green-600 hover:text-green-800 text-2xl"
             >
               &times;
             </button>

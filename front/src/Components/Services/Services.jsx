@@ -45,23 +45,42 @@ const services = [
 ];
 
 const Services = () => {
+  const currentDate = new Date().toLocaleDateString(); // Get the current date
+
   return (
-    <div className="text-center bg-gray-100 pb-28">
-      <h2 className="text-4xl font-semibold pt-16 text-yellow-100">Export Items</h2>
-      <p className="mb-12 text-gray-600 text-lg max-w-4xl mx-auto px-4">
-        We export high-quality agricultural products from Ethiopia, including a diverse range of oilseeds, pulses, and other valuable crops. Our products are carefully selected to meet international standards and ensure maximum satisfaction for our clients.
-      </p>
-      <div className="flex flex-wrap justify-center gap-10 pt-10 px-4">
-        {services.map((service, index) => (
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2" key={index}>
-            <img src={service.image} alt={service.title} className="w-full h-48 object-cover rounded-t-lg" />
-            <div className="p-6">
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">{service.title}</h3>
-              <p className="text-gray-700 mb-4 text-lg">{service.description}</p>
-              <a href={service.link} className="text-red-600 font-semibold hover:underline">Read More</a>
+    <div className="p-4 font-[sans-serif] bg-white">
+      <div className="max-w-6xl max-lg:max-w-3xl max-sm:max-w-sm mx-auto">
+        <div className="max-w-md mx-auto">
+          <h2 className="text-3xl font-extrabold text-gray-800 mb-12 text-center leading-10">
+          Export Items
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-sm:gap-8">
+          {services.map((service, index) => (
+            <div className="bg-white rounded overflow-hidden" key={index}>
+              <img
+                src={service.image}
+                alt={service.title}
+                className="w-full h-52 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-gray-800 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-gray-500 text-sm">{service.description}</p>
+                <p className="text-gray-800 text-[13px] font-semibold mt-4">
+                  {currentDate} {/* Display today's date */}
+                </p>
+                <a
+                  href={service.link}
+                  className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]"
+                >
+                  Read More
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

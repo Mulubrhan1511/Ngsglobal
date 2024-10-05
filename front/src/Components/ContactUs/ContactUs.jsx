@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
-    <div className="font-[sans-serif] max-w-6xl mx-auto relative bg-white rounded-lg py-6 px-10 pb-12">
+    <div className="font-[sans-serif] max-w-6xl mx-auto relative bg-white rounded-lg py-6 px-10 pb-12 p-16">
       <div className="grid lg:grid-cols-3 items-center">
         <div className="grid sm:grid-cols-2 gap-4 z-20 relative lg:left-16 max-lg:px-4">
           <div className="flex flex-col items-center justify-center rounded-lg w-full h-44 p-4 text-center bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
@@ -45,6 +45,7 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+      <div className="pb-8" /> {/* Added padding at the bottom */}
     </div>
   );
 };

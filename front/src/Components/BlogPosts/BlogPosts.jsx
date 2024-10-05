@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import img1 from "../../assets/BlogPosts/ocean_freight_image.jpg";
 import img2 from "../../assets/BlogPosts/foodstafe.jpeg";
 import img3 from "../../assets/BlogPosts/chemicals_imports.jpg";
-import img4 from "../../assets/BlogPosts/alumunium.jpeg"; // Placeholder, update with actual image path
-import img5 from "../../assets/BlogPosts/rebar_steel_image.jpg"; // Placeholder, update with actual image path
-import img6 from "../../assets/BlogPosts/timber_image.jpeg"; // Placeholder, update with actual image path
+import img4 from "../../assets/BlogPosts/alumunium.jpeg";
+import img5 from "../../assets/BlogPosts/rebar_steel_image.jpg";
+import img6 from "../../assets/BlogPosts/timber_image.jpeg";
 import Modal from './Modal';
 
 const blogPosts = [
@@ -48,6 +48,13 @@ const blogPosts = [
 
 const BlogPosts = () => {
   const [selectedPost, setSelectedPost] = useState(null);
+  
+  // Get today's date formatted as 'DD MMMM YYYY'
+  const today = new Date().toLocaleDateString('en-US', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+  });
 
   const openModal = (post) => {
     setSelectedPost(post);
@@ -58,28 +65,34 @@ const BlogPosts = () => {
   };
 
   return (
-    <div className="text-center p-8 bg-gray-100">
-      <h2 className="text-4xl font-bold text-yellow-100 mb-4">Import Items</h2>
-      <p className="mb-12 text-gray-600 text-lg max-w-3xl mx-auto">
-        At NGS Global Trading, we import a diverse range of essential goods, including aluminum billets, rebar, chemicals, raw materials, timber, and food items like oil, sugar, and wheat. We value the importance of providing high-quality import items to support the diverse needs of businesses like yours.
-      </p>
-      <div className="flex flex-wrap justify-center gap-8">
-        {blogPosts.map((post, index) => (
-          <div className="max-w-sm bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105" key={index}>
-            <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
-            <div className="p-6">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">{post.title}</h3>
-              <p className="text-gray-700 mb-4">{post.description}</p>
-              
+    <div className="p-4 font-[sans-serif] bg-white"> {/* Set background to white here */}
+      <div className="max-w-6xl max-lg:max-w-3xl max-sm:max-w-sm mx-auto">
+        <div className="max-w-md mx-auto">
+          <h2 className="text-3xl font-extrabold text-gray-800 mb-12 text-center leading-10">
+          Import Items
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-sm:gap-8">
+          {blogPosts.map((post, index) => (
+            <div className="bg-white rounded overflow-hidden" key={index}>
+              <img src={post.image} alt={post.title} className="w-full h-52 object-cover" />
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-gray-800 mb-3">{post.title}</h3>
+                <p className="text-gray-500 text-sm">{post.description}</p>
+                <p className="text-gray-800 text-[13px] font-semibold mt-4">{today}</p>
+                <a href={post.link} className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">
+                  Read More
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       {selectedPost && (
         <Modal isOpen={!!selectedPost} onClose={closeModal} content={selectedPost} />
       )}
     </div>
   );
-}
+};
 
 export default BlogPosts;
