@@ -73,7 +73,7 @@ const Services = () => {
                 </p>
                 <a
                   href={service.link}
-                  className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]"
+                  className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-green-500 hover:bg-purple-700 text-white text-[13px]"
                 >
                   Read More
                 </a>

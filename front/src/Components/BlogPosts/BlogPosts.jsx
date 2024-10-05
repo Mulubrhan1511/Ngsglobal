@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import img1 from "../../assets/BlogPosts/ocean_freight_image.jpg";
-import img2 from "../../assets/BlogPosts/foodstafe.jpeg";
+import img2 from "../../assets/BlogPosts/food_items_image.jpg";
 import img3 from "../../assets/BlogPosts/chemicals_imports.jpg";
-import img4 from "../../assets/BlogPosts/alumunium.jpeg";
+import img4 from "../../assets/BlogPosts/Aluminium.jpg";
 import img5 from "../../assets/BlogPosts/rebar_steel_image.jpg";
 import img6 from "../../assets/BlogPosts/timber_image.jpeg";
 import Modal from './Modal';
@@ -39,9 +39,9 @@ const blogPosts = [
     link: "/food-items"
   },
   {
-    title: "Raw Materials",
+    title: "Copper Wire",
     description: "Access a variety of raw materials essential for your business operations, ensuring quality and reliability in your supply chain.",
-    image: img1,
+    image: img1, // You can replace this with the appropriate image for copper wire
     link: "/raw-materials"
   }
 ];
@@ -80,7 +80,7 @@ const BlogPosts = () => {
                 <h3 className="text-lg font-bold text-gray-800 mb-3">{post.title}</h3>
                 <p className="text-gray-500 text-sm">{post.description}</p>
                 <p className="text-gray-800 text-[13px] font-semibold mt-4">{today}</p>
-                <a href={post.link} className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">
+                <a href={post.link} className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-green-500 hover:bg-green-500 text-white text-[13px]">
                   Read More
                 </a>
               </div>

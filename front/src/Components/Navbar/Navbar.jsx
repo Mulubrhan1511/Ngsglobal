@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { RiPhoneFill, RiMenu3Line } from 'react-icons/ri';
 import { TbMailFilled } from "react-icons/tb";
 import { MdAccessTimeFilled } from "react-icons/md";
-import Logo from '../../assets/Navbar/logo.jpg';
+import Logo from '../../assets/Navbar/logo.png';
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);

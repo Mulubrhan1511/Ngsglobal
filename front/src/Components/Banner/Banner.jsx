@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from "../../assets/banner/car.png";
-import Image2 from "../../assets/banner/plane.jpg";
-import Image3 from "../../assets/banner/shippment.jpg";
+import Image2 from "../../assets/service/img1.jpg";
+import Image3 from "../../assets/BlogPosts/rebar_steel_image.jpg";
+
 
 const ImageList = [
   {
@@ -25,9 +26,9 @@ const ImageList = [
     id: 3,
     img: Image3,
     title: "Quality Products, Global Reach",
-    description:
-      "From import to export, we ensure top-notch products reach you wherever you are.",
-  },
+    description: "From import to export, we ensure exceptional products reach you wherever you are.",
+}
+
 ];
 
 const Banner = ({ handleOrderPopup }) => {
@@ -70,7 +71,7 @@ const Banner = ({ handleOrderPopup }) => {
             ></div>
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-6">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">{data.title}</h1>
-              <p className="text-sm">{data.description}</p>
+              <p className="text-sm text-gray">{data.description}</p>
               <button
                 onClick={handleOrderPopup}
                 className="mt-4 bg-gradient-to-r from-primary to-gold hover:scale-105 duration-200 text-white px-4 rounded-full"
