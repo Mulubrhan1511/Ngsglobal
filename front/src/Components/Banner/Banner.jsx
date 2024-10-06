@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from "../../assets/banner/car.png";
-import Image2 from "../../assets/service/img1.jpg";
-import Image3 from "../../assets/BlogPosts/rebar_steel_image.jpg";
+import Image2 from "../../assets/banner/img3.jpg";
+import Image3 from "../../assets/banner/img4.jpg";
 
 
 const ImageList = [
